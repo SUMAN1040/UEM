@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D4E6F4"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar3"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:background="@drawable/uemban"
+        android:elevation="100dp"/>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="21">
+
+            <TextView
+                android:id="@+id/fees1"
+                android:layout_width="65dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/outline_rectangle_four"
+                android:gravity="fill_vertical"
+                android:padding="5dp"
+                android:text=" 4th "
+                android:textColor="@color/black"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:id="@+id/fees2"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/outline_rectangle_four"
+                android:gravity="fill_vertical"
+                android:padding="5dp"
+                android:text=" 50000.00 "
+                android:textColor="@color/black"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:id="@+id/fees3"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:background="@drawable/outline_rectangle_four"
+                android:gravity="fill_vertical"
+                android:padding="5dp"
+                android:text=" 00.00 "
+                android:textColor="@color/black"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:id="@+id/fees4"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/outline_rectangle_four"
+                android:gravity="fill_vertical"
+                android:padding="5dp"
+                android:text=" 50000.00 "
+                android:textColor="@color/black"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:id="@+id/fees5"
+                android:layout_width="160dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:background="@drawable/outline_rectangle_four"
+                android:gravity="fill_vertical"
+                android:padding="5dp"
+                android:text=" 00.00 "
+                android:textColor="@color/black"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:id="@+id/fees6"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:background="@drawable/outline_rectangle_four"
+                android:gravity="fill_vertical"
+                android:padding="5dp"
+                android:text="January-2025"
+                android:textColor="@color/black"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:id="@+id/fees7"
+                android:layout_width="75dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:background="@drawable/outline_rectangle_four"
+                android:gravity="fill_vertical"
+                android:padding="5dp"
+                android:text=" 00.00 "
+                android:textColor="@color/black"
+                android:textSize="15sp"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/fees8"
+                android:layout_width="160dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="1dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="4"
+                android:background="@drawable/btn_color"
+                android:elevation="25dp"
+                android:fontFamily="@font/abril_fatface"
+                android:gravity="center"
+                android:text="Proceed to Pay"
+                android:textColor="#F40000"
+                android:textSize="14sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+    </HorizontalScrollView>
+</LinearLayout>

@@ -1,0 +1,1920 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D4E6F4"
+    tools:context=".ui.update_information_project.UpdateFragment">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar3"
+                android:layout_width="match_parent"
+                android:layout_height="77dp"
+                android:background="@drawable/uemban"
+                android:elevation="100dp"
+                tools:ignore="MissingConstraints" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/update1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:elevation="25dp"
+            android:fontFamily="@font/aldrich"
+            android:gravity="center"
+            android:text="@string/student_information"
+            android:textColor="#FD0000"
+            android:textSize="20sp"
+            android:textStyle="normal"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="#2D372E"
+            android:elevation="150dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="1dp"
+                android:text="@string/click_here_for_display_edit_add_new_certificate"
+                android:textColor="#0DE0FB"
+                android:textSize="12sp"
+                android:textStyle="bold"/>
+        </androidx.cardview.widget.CardView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:elevation="25dp"
+            android:gravity="center"
+            android:text="@string/note_please_do_not_use_following_characters"
+            android:textColor="#FD0000"
+            android:textSize="15sp"
+            android:textStyle="normal"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:elevation="25dp"
+            android:gravity="center"
+            android:text="@string/sign"
+            android:textColor="#FD0000"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2.9dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/four_rec"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:layout_weight="1"
+            android:foregroundGravity="fill_vertical"
+            android:importantForAccessibility="no"
+            android:padding="10dp"
+            android:src="@drawable/skd"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2.1dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/four_rec"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="3dp"
+            android:text="@string/college_enrol_no"
+            android:textColor="@color/black"
+            android:textSize="15sp"/>
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/info_rec"
+            android:hint="@string/_12023002001040"
+            android:inputType="numberDecimal"
+            android:padding="5dp"
+            android:text=""
+            android:textSize="15sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:layout_marginEnd="5dp"
+            android:text="@string/not_editable"
+            android:textColor="#F10202"
+            android:textSize="13sp"
+            tools:ignore="RtlHardcoded" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2.1dp"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/four_rec"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="3dp"
+            android:text="@string/university_registration_no"
+            android:textColor="@color/black"
+            android:textSize="15sp"/>
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/info_rec"
+            android:hint="@string/_204202300200048"
+            android:inputType="numberDecimal"
+            android:padding="5dp"
+            android:text=""
+            android:textSize="15sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:layout_marginEnd="5dp"
+            android:text="@string/not_editable"
+            android:textColor="#F10202"
+            android:textSize="13sp"
+            tools:ignore="RtlHardcoded" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2.1dp"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/four_rec"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="3dp"
+            android:text="@string/examination_roll_no"
+            android:textColor="@color/black"
+            android:textSize="15sp"/>
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/info_rec"
+            android:hint="@string/_204202300200048"
+            android:inputType="numberDecimal"
+            android:padding="5dp"
+            android:text=""
+            android:textSize="15sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:layout_marginEnd="5dp"
+            android:text="@string/not_editable"
+            android:textColor="#F10202"
+            android:textSize="13sp"
+            tools:ignore="RtlHardcoded"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2.1dp"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/four_rec"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="#9ADEEF"
+            android:elevation="150dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="150dp"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text="@string/personal_information"
+                android:textColor="#000000"
+                android:textSize="12sp"
+                android:textStyle="bold"/>
+        </androidx.cardview.widget.CardView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2.1dp"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/four_rec"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="3dp"
+            android:text="@string/name"
+            android:textColor="@color/black"
+            android:textSize="15sp"/>
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/info_rec"
+            android:hint="@string/suman_kumar_dey"
+            android:inputType="text"
+            android:padding="5dp"
+            android:text=""
+            android:textColorHint="@color/black"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:layout_marginEnd="5dp"
+            android:text="@string/not_editable"
+            android:textColor="#000000"
+            android:textSize="13sp"
+            tools:ignore="RtlHardcoded" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2.1dp"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/four_rec"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="3dp"
+            android:text="@string/stream"
+            android:textColor="@color/black"
+            android:textSize="15sp"/>
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/info_rec"
+            android:hint="CSE"
+            android:inputType="text"
+            android:padding="5dp"
+            android:text=""
+            android:textColorHint="@color/black"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:layout_marginEnd="5dp"
+            android:text="@string/not_editable"
+            android:textColor="#000000"
+            android:textSize="13sp"
+            tools:ignore="RtlHardcoded" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2.1dp"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/four_rec"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="3dp"
+            android:text="@string/course"
+            android:textColor="@color/black"
+            android:textSize="15sp"/>
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/info_rec"
+            android:hint="@string/b_tech"
+            android:inputType="text"
+            android:padding="5dp"
+            android:text=""
+            android:textColorHint="@color/black"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:layout_marginEnd="5dp"
+            android:text="@string/not_editable"
+            android:textColor="#000000"
+            android:textSize="13sp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2.1dp"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/four_rec"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="3dp"
+            android:text="@string/student_s_mobile_no_sms"
+            android:textColor="@color/black"
+            android:textSize="15sp"/>
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/info_rec"
+            android:hint="@string/_9476176172"
+            android:inputType="text"
+            android:padding="5dp"
+            android:text=""
+            android:textColorHint="@color/black"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:layout_marginEnd="5dp"
+            android:text="@string/all_the_information_will_be_sent_to_this_mobile_no"
+            android:textColor="#000000"
+            android:textSize="13sp"
+            tools:ignore="RtlHardcoded" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2.1dp"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/four_rec"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="3dp"
+            android:text="@string/student_s_e_mail"
+            android:textColor="@color/black"
+            android:textSize="15sp"/>
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/info_rec"
+            android:hint="@string/skdeyofficial2003_gmail_com"
+            android:inputType="text"
+            android:padding="5dp"
+            android:text=""
+            android:textColorHint="@color/black"
+            android:textSize="15sp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2.1dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/four_rec"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="3dp"
+            android:text="@string/guardian_mobile_no_sms"
+            android:textColor="@color/black"
+            android:textSize="15sp"/>
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/info_rec"
+            android:hint="@string/_9476304388"
+            android:inputType="numberDecimal"
+            android:padding="5dp"
+            android:text=""
+            android:textColorHint="@color/black"
+            android:textSize="15sp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2.1dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/four_rec"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="3dp"
+            android:text="@string/full_local_address"
+            android:textColor="@color/black"
+            android:textSize="15sp"/>
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/info_rec"
+            android:hint="@string/gandhinagar_panchbaga_bankura_i"
+            android:inputType="text"
+            android:padding="5dp"
+            android:text=""
+            android:textColorHint="@color/black"
+            android:textSize="15sp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2.1dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/four_rec"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="3dp"
+            android:text="@string/district"
+            android:textColor="@color/black"
+            android:textSize="15sp"/>
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/info_rec"
+            android:hint="@string/bankura"
+            android:inputType="text"
+            android:padding="5dp"
+            android:text=""
+            android:textColorHint="@color/black"
+            android:textSize="15sp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2.1dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/four_rec"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="3dp"
+            android:text="@string/pin_code"
+            android:textColor="@color/black"
+            android:textSize="15sp"/>
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/info_rec"
+            android:hint="@string/_722102"
+            android:inputType="numberDecimal"
+            android:padding="5dp"
+            android:text=""
+            android:textColorHint="@color/black"
+            android:textSize="15sp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2.1dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/four_rec"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="3dp"
+            android:text="@string/state"
+            android:textColor="@color/black"
+            android:textSize="15sp"/>
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/info_rec"
+            android:hint="@string/west_bengal"
+            android:inputType="text"
+            android:padding="5dp"
+            android:text=""
+            android:textColorHint="@color/black"
+            android:textSize="15sp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2.1dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/four_rec"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="3dp"
+            android:text="@string/country"
+            android:textColor="@color/black"
+            android:textSize="15sp"/>
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/info_rec"
+            android:hint="@string/india"
+            android:inputType="text"
+            android:padding="5dp"
+            android:text=""
+            android:textColorHint="@color/black"
+            android:textSize="15sp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2.1dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/four_rec"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="3dp"
+            android:text="@string/res_ph"
+            android:textColor="@color/black"
+            android:textSize="15sp"/>
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/info_rec"
+            android:inputType="text"
+            android:padding="5dp"
+            android:text=""
+            android:textColorHint="@color/black"
+            android:textSize="15sp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2.1dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/four_rec"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="3dp"
+            android:text="@string/gender"
+            android:textColor="@color/black"
+            android:textSize="15sp"/>
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/info_rec"
+            android:hint="@string/male"
+            android:inputType="text"
+            android:padding="5dp"
+            android:text=""
+            android:textColorHint="@color/black"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:layout_marginEnd="5dp"
+            android:text="@string/write_only_m_or_f"
+            android:textColor="#000000"
+            android:textSize="13sp"
+            tools:ignore="RtlHardcoded" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2.1dp"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/four_rec"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="3dp"
+            android:text="@string/blood_group"
+            android:textColor="@color/black"
+            android:textSize="15sp"/>
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:layout_weight="8"
+            android:background="@drawable/info_rec"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/outline_rectangle_four"
+                android:gravity="center"
+                android:text="@string/a"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                tools:ignore="NestedWeights" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/outline_rectangle_four"
+                android:gravity="center"
+                android:text="@string/a1"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                tools:ignore="NestedWeights" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/outline_rectangle_four"
+                android:gravity="center"
+                android:text="@string/b"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                tools:ignore="NestedWeights" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/outline_rectangle_four"
+                android:gravity="center"
+                android:text="@string/b1"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                tools:ignore="NestedWeights" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/outline_rectangle_four"
+                android:gravity="center"
+                android:text="@string/ab"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                tools:ignore="NestedWeights" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/outline_rectangle_four"
+                android:gravity="center"
+                android:text="@string/ab1"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                tools:ignore="NestedWeights" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/outline_rectangle_four"
+                android:gravity="center"
+                android:text="@string/o"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                tools:ignore="NestedWeights" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/outline_rectangle_four"
+                android:gravity="center"
+                android:text="@string/o1"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                tools:ignore="NestedWeights" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2.1dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/four_rec"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="3dp"
+            android:text="@string/date_of_birth"
+            android:textColor="@color/black"
+            android:textSize="15sp"/>
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/info_rec"
+            android:hint="@string/_2003_11_11"
+            android:inputType="numberDecimal"
+            android:padding="5dp"
+            android:text=""
+            android:textColorHint="@color/black"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:layout_marginEnd="5dp"
+            android:text="@string/format_yyyy_mm_dd_ex_1997_04_14"
+            android:textColor="#000000"
+            android:textSize="13sp"
+            tools:ignore="RtlHardcoded" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2.1dp"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/four_rec"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="3dp"
+            android:text="@string/year_of_admission"
+            android:textColor="@color/black"
+            android:textSize="15sp"/>
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/info_rec"
+            android:hint="@string/_2023"
+            android:inputType="numberDecimal"
+            android:padding="5dp"
+            android:text=""
+            android:textColorHint="@color/black"
+            android:textSize="15sp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2.1dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/four_rec"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="3dp"
+            android:text="@string/father_s_name"
+            android:textColor="@color/black"
+            android:textSize="15sp"/>
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/info_rec"
+            android:hint="@string/kartick_chandra_dey"
+            android:inputType="numberDecimal"
+            android:padding="5dp"
+            android:text=""
+            android:textColorHint="@color/black"
+            android:textSize="15sp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2.1dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/four_rec"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="3dp"
+            android:text="@string/father_s_email"
+            android:textColor="@color/black"
+            android:textSize="15sp"/>
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/info_rec"
+            android:hint="@string/kcdey1967_gmail_com"
+            android:inputType="numberDecimal"
+            android:padding="5dp"
+            android:text=""
+            android:textColorHint="@color/black"
+            android:textSize="15sp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2.1dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/four_rec"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="3dp"
+            android:text="@string/mother_s_name"
+            android:textColor="@color/black"
+            android:textSize="15sp"/>
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/info_rec"
+            android:hint="@string/pratima_dey"
+            android:inputType="numberDecimal"
+            android:padding="5dp"
+            android:text=""
+            android:textColorHint="@color/black"
+            android:textSize="15sp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2.1dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/four_rec"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="3dp"
+            android:text="@string/other_s_email"
+            android:textColor="@color/black"
+            android:textSize="15sp"/>
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/info_rec"
+            android:hint="@string/deypratima51_gmail_com"
+            android:inputType="numberDecimal"
+            android:padding="5dp"
+            android:text=""
+            android:textColorHint="@color/black"
+            android:textSize="15sp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2.1dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/four_rec"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="100dp"
+                android:buttonTint="@color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:text="@string/same_as_local_address"
+                android:textColor="@color/black"
+                android:textSize="15sp"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2.1dp"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/four_rec"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="3dp"
+            android:text="@string/permanent_address"
+            android:textColor="@color/black"
+            android:textSize="15sp"/>
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/info_rec"
+            android:hint="@string/gandhinagar_panchbaga_bankura_i1"
+            android:inputType="text"
+            android:padding="5dp"
+            android:text=""
+            android:textColorHint="@color/black"
+            android:textSize="15sp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2.1dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/four_rec"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="3dp"
+            android:text="@string/pin_code1"
+            android:textColor="@color/black"
+            android:textSize="15sp"/>
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/info_rec"
+            android:hint="@string/_7221021"
+            android:inputType="numberDecimal"
+            android:padding="5dp"
+            android:text=""
+            android:textColorHint="@color/black"
+            android:textSize="15sp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2.1dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/four_rec"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="3dp"
+            android:text="@string/state1"
+            android:textColor="@color/black"
+            android:textSize="15sp"/>
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/info_rec"
+            android:hint="@string/west_bengal1"
+            android:inputType="text"
+            android:padding="5dp"
+            android:text=""
+            android:textColorHint="@color/black"
+            android:textSize="15sp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2.1dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/four_rec"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="3dp"
+            android:text="@string/country1"
+            android:textColor="@color/black"
+            android:textSize="15sp"/>
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/info_rec"
+            android:hint="@string/india1"
+            android:inputType="text"
+            android:padding="5dp"
+            android:text=""
+            android:textColorHint="@color/black"
+            android:textSize="15sp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2.1dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/four_rec"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="3dp"
+            android:text="@string/permanent_address_ph_no"
+            android:textColor="@color/black"
+            android:textSize="15sp"/>
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/info_rec"
+            android:hint="@string/_94763043881"
+            android:inputType="numberDecimal"
+            android:padding="5dp"
+            android:text=""
+            android:textColorHint="@color/black"
+            android:textSize="15sp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2.1dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/four_rec"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="3dp"
+            android:text="@string/father_guardian_telephone_no_office"
+            android:textColor="@color/black"
+            android:textSize="15sp"/>
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/info_rec"
+            android:hint="@string/_0"
+            android:inputType="numberDecimal"
+            android:padding="5dp"
+            android:text=""
+            android:textColorHint="@color/black"
+            android:textSize="15sp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2.1dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/four_rec"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="3dp"
+            android:text="@string/guardian_s_email"
+            android:textColor="@color/black"
+            android:textSize="15sp"/>
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/info_rec"
+            android:hint="@string/kcdey1967_gmail_com1"
+            android:inputType="text"
+            android:padding="5dp"
+            android:text=""
+            android:textColorHint="@color/black"
+            android:textSize="15sp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2.1dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/four_rec"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="3dp"
+            android:text="@string/guardian_s_name"
+            android:textColor="@color/black"
+            android:textSize="15sp"/>
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/info_rec"
+            android:hint="@string/kartick_chandra_dey1"
+            android:inputType="text"
+            android:padding="5dp"
+            android:text=""
+            android:textColorHint="@color/black"
+            android:textSize="15sp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2.1dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/four_rec"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="3dp"
+            android:text="@string/relation1"
+            android:textColor="@color/black"
+            android:textSize="15sp"/>
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/info_rec"
+            android:hint="@string/father"
+            android:inputType="text"
+            android:padding="5dp"
+            android:text=""
+            android:textColorHint="@color/black"
+            android:textSize="15sp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2.1dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/four_rec"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="3dp"
+            android:text="@string/rank"
+            android:textColor="@color/black"
+            android:textSize="15sp"/>
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/info_rec"
+            android:hint="@string/_01"
+            android:inputType="numberDecimal"
+            android:padding="5dp"
+            android:text=""
+            android:textColorHint="@color/black"
+            android:textSize="15sp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2.1dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/four_rec"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:text="@string/school_college_information"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2.1dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/four_rec"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="3dp"
+            android:text="@string/class_10_percentage"
+            android:textColor="@color/black"
+            android:textSize="15sp"/>
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/info_rec"
+            android:hint="@string/_89_5"
+            android:inputType="numberDecimal"
+            android:padding="5dp"
+            android:text=""
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:layout_marginEnd="5dp"
+            android:text="@string/not_editable"
+            android:textColor="#F10202"
+            android:textSize="13sp"
+            tools:ignore="RtlHardcoded" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2.1dp"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/four_rec"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="3dp"
+            android:text="@string/year_of_passing"
+            android:textColor="@color/black"
+            android:textSize="15sp"/>
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/info_rec"
+            android:hint="@string/_2020"
+            android:inputType="numberDecimal"
+            android:padding="5dp"
+            android:text=""
+            android:textColorHint="@color/black"
+            android:textSize="15sp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2.1dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/four_rec"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="3dp"
+            android:text="@string/name_of_board"
+            android:textColor="@color/black"
+            android:textSize="15sp"/>
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/info_rec"
+            android:hint="@string/wbbse"
+            android:inputType="text"
+            android:padding="5dp"
+            android:text=""
+            android:textColorHint="@color/black"
+            android:textSize="15sp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2.1dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/four_rec"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="3dp"
+            android:text="@string/school_name"
+            android:textColor="@color/black"
+            android:textSize="15sp"/>
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/info_rec"
+            android:hint="@string/kenduadihi_boys_high_school"
+            android:inputType="text"
+            android:padding="5dp"
+            android:text=""
+            android:textColorHint="@color/black"
+            android:textSize="15sp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2.1dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/four_rec"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="3dp"
+            android:text="@string/hs_class_12_percentage"
+            android:textColor="@color/black"
+            android:textSize="15sp"/>
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/info_rec"
+            android:hint="@string/_67_6"
+            android:inputType="numberDecimal"
+            android:padding="5dp"
+            android:text=""
+            android:textColorHint="@color/black"
+            android:textSize="15sp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2.1dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/four_rec"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="3dp"
+            android:text="@string/year_of_passing1"
+            android:textColor="@color/black"
+            android:textSize="15sp"/>
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/info_rec"
+            android:hint="@string/_2022"
+            android:importantForAutofill="no"
+            android:inputType="numberDecimal"
+            android:padding="5dp"
+            android:text=""
+            android:textColorHint="@color/black"
+            android:textSize="15sp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2.1dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/four_rec"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="3dp"
+            android:text="@string/board"
+            android:textColor="@color/black"
+            android:textSize="15sp"/>
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/info_rec"
+            android:hint="@string/wbchse"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            android:padding="5dp"
+            android:text=""
+            android:textColorHint="@color/black"
+            android:textSize="15sp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2.1dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/four_rec"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="3dp"
+            android:text="@string/school"
+            android:textColor="@color/black"
+            android:textSize="15sp"/>
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1" android:background="@drawable/info_rec"
+            android:hint="@string/kenduadihi_boys_high_school1"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            android:padding="5dp"
+            android:text=""
+            android:textColorHint="@color/black"
+            android:textSize="15sp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2.1dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/four_rec"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="3dp"
+            android:text="@string/other_diploma"
+            android:textColor="@color/black"
+            android:textSize="15sp"/>
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/info_rec"
+            android:hint="@string/na"
+            android:inputType="text"
+            android:padding="5dp"
+            android:text=""
+            android:textColorHint="@color/black"
+            android:textSize="15sp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2.1dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/four_rec"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="3dp"
+            android:text="@string/year_of_passing12"
+            android:textColor="@color/black"
+            android:textSize="15sp"/>
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/info_rec"
+            android:hint="@string/_012"
+            android:inputType="numberDecimal"
+            android:padding="5dp"
+            android:text=""
+            android:textColorHint="@color/black"
+            android:textSize="15sp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2.1dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/four_rec"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="3dp"
+            android:text="@string/board_university"
+            android:textColor="@color/black"
+            android:textSize="15sp"/>
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/info_rec"
+            android:hint="@string/na1"
+            android:inputType="text"
+            android:padding="5dp"
+            android:text=""
+            android:textColorHint="@color/black"
+            android:textSize="15sp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2.1dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/four_rec"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="3dp"
+            android:text="@string/name_of_institution"
+            android:textColor="@color/black"
+            android:textSize="15sp"/>
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/info_rec"
+            android:hint="@string/na12"
+            android:inputType="text"
+            android:padding="5dp"
+            android:text=""
+            android:textColorHint="@color/black"
+            android:textSize="15sp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2.1dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/four_rec"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="3dp"
+            android:text="@string/percentage"
+            android:textColor="@color/black"
+            android:textSize="15sp"/>
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1"
+            android:autofillHints=""
+            android:background="@drawable/info_rec"
+            android:hint="@string/_0_0"
+            android:inputType="numberDecimal"
+            android:padding="5dp"
+            android:text=""
+            android:textColorHint="@color/black"
+            android:textSize="15sp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2.1dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/four_rec"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="3dp"
+            android:text="@string/aadhar_no"
+            android:textColor="@color/black"
+            android:textSize="15sp"/>
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/info_rec"
+            android:hint="@string/_310726414913"
+            android:inputType="numberDecimal"
+            android:padding="5dp"
+            android:text=""
+            android:textColorHint="@color/black"
+            android:textSize="15sp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2.1dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/four_rec"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="3dp"
+            android:text="@string/guardian_s_pan1"
+            android:textColor="@color/black"
+            android:textSize="15sp"/>
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/info_rec"
+            android:hint=""
+            android:inputType="numberDecimal"
+            android:padding="5dp"
+            android:text=""
+            android:textColorHint="@color/black"
+            android:textSize="15sp"
+            tools:ignore="LabelFor" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2.1dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/four_rec"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="3dp"
+            android:text="@string/hostel_name"
+            android:textColor="@color/black"
+            android:textSize="15sp"/>
+        
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/info_rec">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="24">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/outline_rectangle_four"
+                android:gravity="fill_vertical"
+                android:padding="5dp"
+                android:text="@string/dayscholer"
+                android:textColor="@color/black"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/outline_rectangle_four"
+                android:gravity="fill_vertical"
+                android:padding="5dp"
+                android:text="@string/wing_1"
+                android:textColor="@color/black"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/outline_rectangle_four"
+                android:gravity="fill_vertical"
+                android:padding="5dp"
+                android:text="@string/wing_2"
+                android:textColor="@color/black"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/outline_rectangle_four"
+                android:gravity="fill_vertical"
+                android:padding="5dp"
+                android:text="@string/wing_3"
+                android:textColor="@color/black"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/outline_rectangle_four"
+                android:gravity="fill_vertical"
+                android:padding="5dp"
+                android:text="@string/wing_4"
+                android:textColor="@color/black"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/outline_rectangle_four"
+                android:gravity="fill_vertical"
+                android:padding="5dp"
+                android:text="@string/wing_5"
+                android:textColor="@color/black"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/outline_rectangle_four"
+                android:gravity="fill_vertical"
+                android:padding="5dp"
+                android:text="@string/wing_6"
+                android:textColor="@color/black"
+                android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:background="@drawable/outline_rectangle_four"
+                    android:gravity="fill_vertical"
+                    android:padding="5dp"
+                    android:text="@string/wing_7"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"/>
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2.1dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/four_rec"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="3dp"
+            android:text="@string/guardian_s_pan"
+            android:textColor="@color/black"
+            android:textSize="15sp"/>
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:layout_weight="8"
+            android:background="@drawable/info_rec"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/outline_rectangle_four"
+                android:gravity="center"
+                android:text="@string/general"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                tools:ignore="NestedWeights" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/outline_rectangle_four"
+                android:gravity="center"
+                android:text="@string/obc"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                tools:ignore="NestedWeights" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/outline_rectangle_four"
+                android:gravity="center"
+                android:text="@string/sc"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                tools:ignore="NestedWeights" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/outline_rectangle_four"
+                android:gravity="center"
+                android:text="@string/st"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                tools:ignore="NestedWeights" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:layout_marginEnd="5dp"
+            android:text="@string/note_certificate_must_be_produced_for_sc_st_obc_minority"
+            android:textColor="@color/black"
+            android:textSize="13sp"
+            tools:ignore="RtlHardcoded"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2.1dp"
+            android:layout_marginTop="10dp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/rounder"
+            android:backgroundTint="#EFD997"
+            android:elevation="100dp"
+            android:text="@string/update"
+            android:textColor="@color/black"
+            android:textSize="16sp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2.1dp"
+            android:layout_marginTop="20dp"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D4E6F4"
+    tools:context=".ui.due_pay_fees.FeesFragment">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar3"
+            android:layout_width="match_parent"
+            android:layout_height="77dp"
+            android:background="@drawable/uemban"
+            android:elevation="100dp"
+            tools:ignore="MissingConstraints" />
+
+    </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:elevation="25dp"
+            android:fontFamily="@font/aldrich"
+            android:gravity="center"
+            android:text="Dues &amp; Payment Schedule"
+            android:textColor="#FD0000"
+            android:textSize="20sp"
+            android:textStyle="normal"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="390dp"
+            android:layout_height="180dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="150dp"
+            app:cardRadius="5dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bank"
+                android:elevation="150dp"/>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="405sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#000000"
+            app:cardCornerRadius="0dp"
+            app:cardElevation="150dp"
+            app:cardRadius="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="For online payment related query you may contact to Mr. Pawan Singh with enrollment no , semester. &amp; college full name Email: pawan.singh@uem.edu.in"
+                android:textColor="@color/yellow"
+                android:textSize="12sp"
+                android:textStyle="bold"/>
+        </androidx.cardview.widget.CardView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="405sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="#110F3E"
+            app:cardCornerRadius="0dp"
+            app:cardElevation="150dp"
+            app:cardRadius="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Check your data - You can change the data through UPDATE/DISPLAY MY INFORMATION LINK"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:textStyle="bold"/>
+        </androidx.cardview.widget.CardView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="4dp"/>
+
+        <LinearLayout
+            android:layout_width="406dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:background="@drawable/outline_rectangle_four"
+            android:backgroundTint="#D4E6F4"
+            android:orientation="horizontal"
+            android:padding="0dp"
+            android:weightSum="2"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/outline_rectangle_four"
+                android:gravity="fill_vertical"
+                android:paddingLeft="10dp"
+                android:text="Name."
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/outline_rectangle_four"
+                android:gravity="fill_vertical"
+                android:paddingLeft="10dp"
+                android:text="Suman Kumar Dey"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+        <LinearLayout
+            android:layout_width="406dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:background="@drawable/outline_rectangle_four"
+            android:orientation="horizontal"
+            android:padding="0dp"
+            android:weightSum="2"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/outline_rectangle_four"
+                android:gravity="fill_vertical"
+                android:paddingLeft="10dp"
+                android:text="Mobile No."
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/outline_rectangle_four"
+                android:gravity="fill_vertical"
+                android:paddingLeft="10dp"
+                android:text="9476176172"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+        <LinearLayout
+            android:layout_width="406dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:background="@drawable/outline_rectangle_four"
+            android:orientation="horizontal"
+            android:padding="0dp"
+            android:weightSum="2"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/outline_rectangle_four"
+                android:gravity="fill_vertical"
+                android:paddingLeft="10dp"
+                android:text="Email."
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/outline_rectangle_four"
+                android:gravity="fill_vertical"
+                android:paddingLeft="10dp"
+                android:text="skdeyofficial2003@gmail.com"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+        <LinearLayout
+            android:layout_width="406dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:background="@drawable/outline_rectangle_four"
+            android:orientation="horizontal"
+            android:padding="0dp"
+            android:weightSum="2"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/outline_rectangle_four"
+                android:gravity="fill_vertical"
+                android:paddingLeft="10dp"
+                android:text="Aadhar No."
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/outline_rectangle_four"
+                android:gravity="fill_vertical"
+                android:paddingLeft="10dp"
+                android:text="310726414913"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="405sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="#110F3E"
+            app:cardCornerRadius="0dp"
+            app:cardElevation="150dp"
+            app:cardRadius="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="LAST DATE OF PAYMENT OF FEES &amp; OTHER CHARGES (for ODD/EVEN Semester) is 10th DAY OF JULY &amp; JANUARY OF THE YEAR. AFTER THAT LATE FINE WILL BE CHARGED."
+                android:textColor="@color/yellow"
+                android:textSize="12sp"
+                android:textStyle="bold"/>
+        </androidx.cardview.widget.CardView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"/>
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="21">
+
+                <TextView
+                    android:id="@+id/fees1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/outline_rectangle_four"
+                    android:padding="5dp"
+                    android:text=" Sem. "
+                    android:textColor="@color/black"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:id="@+id/fees2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:background="@drawable/outline_rectangle_four"
+                    android:padding="5dp"
+                    android:text=" Semester Fees "
+                    android:textColor="@color/black"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:id="@+id/fees3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:background="@drawable/outline_rectangle_four"
+                    android:padding="5dp"
+                    android:text=" Bus Fare "
+                    android:textColor="@color/black"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:id="@+id/fees4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:background="@drawable/outline_rectangle_four"
+                    android:padding="5dp"
+                    android:text=" Hostel Charge "
+                    android:textColor="@color/black"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:id="@+id/fees5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:background="@drawable/outline_rectangle_four"
+                    android:padding="5dp"
+                    android:text=" Cambridge Assessment "
+                    android:textColor="@color/black"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:id="@+id/fees6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:background="@drawable/outline_rectangle_four"
+                    android:padding="5dp"
+                    android:text=" Due on "
+                    android:textColor="@color/black"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:id="@+id/fees7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:background="@drawable/outline_rectangle_four"
+                    android:padding="5dp"
+                    android:text=" Fine "
+                    android:textColor="@color/black"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:id="@+id/fees8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:background="@drawable/outline_rectangle_four"
+                    android:padding="5dp"
+                    android:text=" Examination Fees "
+                    android:textColor="@color/black"
+                    android:textSize="15sp"/>
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerfees"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="2dp"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="30dp"/>
+            </LinearLayout>
+        </HorizontalScrollView>
+
+    </LinearLayout>
+
+</ScrollView>

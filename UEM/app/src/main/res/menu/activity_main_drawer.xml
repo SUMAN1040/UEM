@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_password"
+            android:icon="@drawable/baseline_password"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_photo"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_gallery" />
+        <item
+            android:id="@+id/nav_library"
+            android:icon="@drawable/baseline_library"
+            android:title="@string/menu_slideshow" />
+        <item
+            android:id="@+id/nav_calender"
+            android:icon="@drawable/baseline_calendar"
+            android:title="@string/organization_s_calender"
+            />
+        <item
+            android:id="@+id/nav_payment"
+            android:icon="@drawable/baseline_payment"
+            android:title="@string/payment_details"
+            />
+        <item
+            android:id="@+id/nav_fees"
+            android:icon="@drawable/baseline_fees"
+            android:title="@string/dues_pay_fees"
+            />
+        <item
+            android:id="@+id/nav_information"
+            android:icon="@drawable/baseline_updated"
+            android:title="@string/update_project"
+            />
+        <item
+            android:id="@+id/nav_marks"
+            android:icon="@drawable/baseline_marks"
+            android:title="@string/university_marks_system"
+            />
+        <item
+            android:id="@+id/nav_feedback"
+            android:icon="@drawable/baseline_feedback"
+            android:title="@string/sem_feedback"
+            />
+        <item
+            android:id="@+id/nav_form"
+            android:icon="@drawable/baseline_forms"
+            android:title="@string/exam_form"
+            />
+        <item
+            android:id="@+id/nav_admit"
+            android:icon="@drawable/baseline_admit"
+            android:title="@string/admit_card"
+            />
+    </group>
+</menu>

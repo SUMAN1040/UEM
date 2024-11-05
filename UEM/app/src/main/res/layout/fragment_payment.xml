@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D4E6F4"
+    tools:context=".ui.payment_details.PaymentFragment">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:background="@drawable/uemban"
+        android:elevation="100dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:elevation="25dp"
+        android:fontFamily="@font/aldrich"
+        android:gravity="center"
+        android:text="Payment List"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar2" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/outline_rectangle_four"
+        android:orientation="horizontal"
+        android:padding="0dp"
+        android:weightSum="9"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/nav_payment1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:layout_weight="2"
+            android:background="@drawable/outline_rectangle_four"
+            android:gravity="center"
+            android:text="Bill No"
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/nav_payment2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="150dp"
+            android:layout_weight="2"
+            android:background="@drawable/outline_rectangle_four"
+            android:gravity="center"
+            android:text="Bill Total"
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/nav_payment3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="150dp"
+            android:layout_weight="3"
+            android:background="@drawable/outline_rectangle_four"
+            android:gravity="center"
+            android:text="Bill Date"
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/nav_payment4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="150dp"
+            android:layout_weight="2"
+            android:background="@drawable/outline_rectangle_four"
+            android:gravity="center"
+            android:text="Details"
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+
+    </LinearLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_payment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="30dp"
+        android:padding="2dp"
+        android:layout_marginTop="174dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

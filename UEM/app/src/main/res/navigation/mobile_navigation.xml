@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <activity
+        android:id="@+id/nav_home"
+        android:name="com.example.uem.MainActivity"
+        android:label="app_bar_main"
+        tools:layout="@layout/app_bar_main" />
+    <fragment
+        android:id="@+id/nav_password"
+        android:name="com.example.uem.ui.set_my_password.PasswordFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_password" />
+    <fragment
+        android:id="@+id/nav_photo"
+        android:name="com.example.uem.ui.upload_my_photo.PhotoFragment"
+        android:label="fragment_photo"
+        tools:layout="@layout/fragment_photo" />
+    <fragment
+        android:id="@+id/nav_library"
+        android:name="com.example.uem.ui.digital_library_resources.DigitalFragment"
+        android:label="fragment_digital"
+        tools:layout="@layout/fragment_digital" />
+    <fragment
+        android:id="@+id/nav_calender"
+        android:name="com.example.uem.ui.organization_calender.CalenderFragment"
+        android:label="fragment_calender"
+        tools:layout="@layout/fragment_calender" />
+    <fragment
+        android:id="@+id/nav_payment"
+        android:name="com.example.uem.ui.payment_details.PaymentFragment"
+        android:label="fragment_payment"
+        tools:layout="@layout/fragment_payment" />
+    <fragment
+        android:id="@+id/nav_fees"
+        android:name="com.example.uem.ui.due_pay_fees.FeesFragment"
+        android:label="fragment_fees"
+        tools:layout="@layout/fragment_fees" />
+    <fragment
+        android:id="@+id/nav_information"
+        android:name="com.example.uem.ui.update_information_project.UpdateFragment"
+        android:label="fragment_update"
+        tools:layout="@layout/fragment_update" />
+    <fragment
+        android:id="@+id/nav_marks"
+        android:name="com.example.uem.ui.university_marks_system.MarksFragment"
+        android:label="fragment_marks"
+        tools:layout="@layout/fragment_marks" />
+    <fragment
+        android:id="@+id/nav_feedback"
+        android:name="com.example.uem.ui.sem_feedback.FeedbackFragment"
+        android:label="fragment_feedback"
+        tools:layout="@layout/fragment_feedback" />
+    <fragment
+        android:id="@+id/nav_form"
+        android:name="com.example.uem.ui.exam_form.ExamFragment"
+        android:label="fragment_exam"
+        tools:layout="@layout/fragment_exam" />
+    <fragment
+        android:id="@+id/nav_admit"
+        android:name="com.example.uem.ui.admit_card.AdmitFragment"
+        android:label="fragment_admit"
+        tools:layout="@layout/fragment_admit" />
+
+
+</navigation>

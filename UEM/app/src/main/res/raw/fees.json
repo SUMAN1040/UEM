@@ -1,0 +1,49 @@
+{
+  "semesters": [
+    {
+      "sem": "4th",
+      "semester_fees": 50000.00,
+      "bus_fare": 0.00,
+      "hostel_charge": 50000.00,
+      "cambridge_assessment": 0.00,
+      "due_on": "January-2025",
+      "fine": 0.00
+    },
+    {
+      "sem": "5th",
+      "semester_fees": 50000.00,
+      "bus_fare": 0.00,
+      "hostel_charge": 50000.00,
+      "cambridge_assessment": 0.00,
+      "due_on": "July-2025",
+      "fine": 0.00
+    },
+    {
+      "sem": "6th",
+      "semester_fees": 50000.00,
+      "bus_fare": 0.00,
+      "hostel_charge": 50000.00,
+      "cambridge_assessment": 0.00,
+      "due_on": "January-2026",
+      "fine": 0.00
+    },
+    {
+      "sem": "7th",
+      "semester_fees": 50000.00,
+      "bus_fare": 0.00,
+      "hostel_charge": 50000.00,
+      "cambridge_assessment": 0.00,
+      "due_on": "July-2026",
+      "fine": 0.00
+    },
+    {
+      "sem": "8th",
+      "semester_fees": 50000.00,
+      "bus_fare": 0.00,
+      "hostel_charge": 50000.00,
+      "cambridge_assessment": 0.00,
+      "due_on": "January-2027",
+      "fine": 0.00
+    }
+  ]
+}

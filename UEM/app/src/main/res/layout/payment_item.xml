@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#D4E6F4">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:background="@drawable/uemban"
+        android:elevation="100dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/outline_rectangle_four"
+        android:orientation="horizontal"
+        android:padding="0dp"
+        android:weightSum="9">
+
+        <TextView
+            android:id="@+id/bill_No"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="@drawable/outline_rectangle_four"
+            android:gravity="center"
+            android:text="03822/2023-24"
+            android:inputType="numberDecimal"
+            android:textColor="@color/black"
+            android:textSize="11sp"/>
+
+        <TextView
+            android:id="@+id/bill_total"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="@drawable/outline_rectangle_four"
+            android:gravity="center"
+            android:text="100000"
+            android:inputType="numberDecimal"
+            android:textColor="@color/black"
+            android:textSize="11sp" />
+
+        <TextView
+            android:id="@+id/bill_date"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:background="@drawable/outline_rectangle_four"
+            android:text="2023-11-09 17:17:41.0"
+            android:inputType="numberDecimal"
+            android:textColor="@color/black"
+            android:textSize="11sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/bill_details"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="2"
+            android:background="@drawable/btn_color"
+            android:elevation="25dp"
+            android:fontFamily="@font/abril_fatface"
+            android:gravity="center"
+            android:text="slip"
+            android:textColor="#F40000"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+    </LinearLayout>
+
+</LinearLayout>

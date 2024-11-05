@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D4E6F4"
+    tools:context=".ui.digital_library_resources.DigitalFragment">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="77dp"
+                android:background="@drawable/uemban"
+                android:elevation="100dp"
+                app:popupTheme="@style/Theme.UEM.PopupOverlay"
+                tools:ignore="MissingConstraints" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/digital11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/aldrich"
+            android:gravity="center"
+            android:text="Digital Library"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="normal" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/digital1"
+            android:layout_width="370dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/outline_rectangle_four"
+            android:backgroundTint="@color/yellow"
+            app:cardCornerRadius="7dp"
+            app:cardElevation="50dp"
+            app:cardRadius="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/almendra_sc"
+                android:gravity="center"
+                android:text="IEEE Digital Library"
+                android:textColor="#F60404"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:fontFamily="serif"
+                android:paddingLeft="10dp"
+                android:text="User ID : fG8BeaTC"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dp"
+                android:fontFamily="serif"
+                android:paddingLeft="10dp"
+                android:text="Password : gh8ccwsJ"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/digital2"
+            android:layout_width="370dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/outline_rectangle_four"
+            android:backgroundTint="@color/yellow"
+            app:cardCornerRadius="7dp"
+            app:cardElevation="50dp"
+            app:cardRadius="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/almendra_sc"
+                android:gravity="center"
+                android:text="Springer"
+                android:textColor="#F60404"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:fontFamily="serif"
+                android:paddingLeft="10dp"
+                android:text="User ID : libraryebooks20@gmail.com"
+                android:textColor="@color/black"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dp"
+                android:fontFamily="serif"
+                android:paddingLeft="10dp"
+                android:text="Password : Management@2024"
+                android:textColor="@color/black"
+                android:textSize="16sp"/>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/digital3"
+            android:layout_width="370dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/outline_rectangle_four"
+            android:backgroundTint="@color/yellow"
+            app:cardCornerRadius="7dp"
+            app:cardElevation="50dp"
+            app:cardRadius="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/almendra_sc"
+                android:gravity="center"
+                android:text="Elsevier"
+                android:textColor="#F60404"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:fontFamily="serif"
+                android:paddingLeft="10dp"
+                android:text="User ID : library@iem.edu.in"
+                android:textColor="@color/black"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dp"
+                android:fontFamily="serif"
+                android:paddingLeft="10dp"
+                android:text="Password : Iemcal@123"
+                android:textColor="@color/black"
+                android:textSize="16sp"/>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/digital4"
+            android:layout_width="370dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/outline_rectangle_four"
+            android:backgroundTint="@color/yellow"
+            app:cardCornerRadius="7dp"
+            app:cardElevation="50dp"
+            app:cardRadius="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/almendra_sc"
+                android:gravity="center"
+                android:text="DELNET"
+                android:textColor="#F60404"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:fontFamily="serif"
+                android:paddingLeft="10dp"
+                android:text="User ID : wbuem"
+                android:textColor="@color/black"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dp"
+                android:fontFamily="serif"
+                android:paddingLeft="10dp"
+                android:text="Password : uem6490"
+                android:textColor="@color/black"
+                android:textSize="16sp"/>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/digital5"
+            android:layout_width="370dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/outline_rectangle_four"
+            android:backgroundTint="@color/yellow"
+            app:cardCornerRadius="7dp"
+            app:cardElevation="50dp"
+            app:cardRadius="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/almendra_sc"
+                android:gravity="center"
+                android:text="J-Gate Plus"
+                android:textColor="#F60404"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:fontFamily="serif"
+                android:paddingLeft="10dp"
+                android:text="User ID : trususer"
+                android:textColor="@color/black"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dp"
+                android:fontFamily="serif"
+                android:paddingLeft="10dp"
+                android:text="Password : trususer358586447"
+                android:textColor="@color/black"
+                android:textSize="16sp"/>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/digital6"
+            android:layout_width="370dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/outline_rectangle_four"
+            android:backgroundTint="@color/yellow"
+            app:cardCornerRadius="7dp"
+            app:cardElevation="50dp"
+            app:cardRadius="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/almendra_sc"
+                android:gravity="center"
+                android:text="EBSCOhost"
+                android:textColor="#F60404"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:fontFamily="serif"
+                android:paddingLeft="10dp"
+                android:text="User ID : iemlibrary"
+                android:textColor="@color/black"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dp"
+                android:fontFamily="serif"
+                android:paddingLeft="10dp"
+                android:text="Password : library@2019"
+                android:textColor="@color/black"
+                android:textSize="16sp"/>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/digital7"
+            android:layout_width="370dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/outline_rectangle_four"
+            android:backgroundTint="@color/yellow"
+            app:cardCornerRadius="7dp"
+            app:cardElevation="50dp"
+            app:cardRadius="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/almendra_sc"
+                android:gravity="center"
+                android:text="ProQuest e-Resources"
+                android:textColor="#F60404"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:fontFamily="serif"
+                android:paddingLeft="10dp"
+                android:text="User ID :  IEM_LIB"
+                android:textColor="@color/black"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dp"
+                android:fontFamily="serif"
+                android:paddingLeft="10dp"
+                android:text="Password : ProQuest@1"
+                android:textColor="@color/black"
+                android:textSize="16sp"/>
+        </androidx.cardview.widget.CardView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+    </LinearLayout>
+</ScrollView>
